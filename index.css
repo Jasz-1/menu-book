@@ -27,7 +27,7 @@ div.hero img {
     object-fit: cover;
 }
 
-div.hrader-text{
+div.header-text{
     padding: 32px;
     display:flex;
     flex-direction: column;
