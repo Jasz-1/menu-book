@@ -1,0 +1,22 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #424242
+}
+
+body {
+    background-color: white;
+}
+
+div.appbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
