@@ -20,3 +20,9 @@ div.appbar{
     font-size: 16px;
     font-weight: 500;
 }
+
+div.hero img{
+    aspect-ratio: 2;
+    width: 100%;
+    object-fit: cover;
+}
