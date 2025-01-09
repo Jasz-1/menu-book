@@ -26,3 +26,25 @@ div.hero img {
     width: 100%;
     object-fit: cover;
 }
+
+div.hrader-text{
+    padding: 32px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+span.tagline{
+    font-size: 20px;
+}
+
+span.document-text{
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+span.price-note{
+    font-size: 12px;
+    margin-top: 8px;
+}
