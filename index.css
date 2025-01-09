@@ -48,3 +48,9 @@ span.price-note{
     font-size: 12px;
     margin-top: 8px;
 }
+
+div.menu-area{
+    display: grid;
+    grid-template-columns: repeat(4. 1fr);
+    
+}
