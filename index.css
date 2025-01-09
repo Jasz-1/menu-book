@@ -10,8 +10,8 @@ body {
     background-color: white;
 }
 
-div.appbar{
-    display:flex;
+div.appbar {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 16px;
@@ -21,7 +21,7 @@ div.appbar{
     font-weight: 500;
 }
 
-div.hero img{
+div.hero img {
     aspect-ratio: 2;
     width: 100%;
     object-fit: cover;
