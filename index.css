@@ -58,6 +58,7 @@ div.menu-area {
 div.menu-tile {
     display: flex;
     flex-direction: column;
+    padding-bottom: 16px;
 }
 
 div.menu-photo img {
