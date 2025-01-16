@@ -53,6 +53,7 @@ span.price-note {
 div.menu-area {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap:16px;
 }
 
 div.menu-tile {
