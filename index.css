@@ -3,7 +3,8 @@ html,
 body {
     margin: 0;
     padding: 0;
-    color: #424242
+    color: #424242;
+    font-family: "Barlow";
 }
 
 body {
@@ -27,41 +28,68 @@ div.hero img {
     object-fit: cover;
 }
 
-div.header-text{
+div.header-text {
     padding: 32px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-span.tagline{
+span.tagline {
     font-size: 20px;
 }
 
-span.document-text{
+span.document-text {
     font-size: 16px;
     font-weight: 500;
 
 }
 
-span.price-note{
+span.price-note {
     font-size: 12px;
     margin-top: 8px;
 }
 
-div.menu-area{
+div.menu-area {
     display: grid;
-    grid-template-columns: repeat(4. 1fr);
-    
+    grid-template-columns: repeat(4, 1fr);
 }
 
-div.menu-tile{
-    display:flex;
-    flex-direction:column;
+div.menu-tile {
+    display: flex;
+    flex-direction: column;
 }
 
-div.menu-photo img{
+div.menu-photo img {
     aspect-ratio: 1;
     object-fit: cover;
     width: 100%;
+}
+
+div.menu-tile-name {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    align-self: stretch;
+    text-align: center;
+}
+
+div.menu-tile-description {
+    font-size: 12px;
+    align-self: stretch;
+    text-align: center;
+    padding: 0 16px;
+    padding-bottom: 16px;
+    height: 60px;
+}
+div.menu-price-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+span.price-description{
+    font-size: 12px;
 }
