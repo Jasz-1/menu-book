@@ -13,6 +13,9 @@ body {
 
 button {
     all:unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div.appbar {
@@ -26,18 +29,6 @@ div.appbar {
     font-weight: 500;
 }
 
-div.price-and-qty{
-    display:flex;
-    align-items:center;
-    gap:8px;
-}
-
-#qty{
-    font-size: 12px;
-    width: 16px;
-    text-align: center;
-
-}
 
 div.hero img {
     aspect-ratio: 2;
@@ -113,22 +104,22 @@ span.price-description{
     font-size: 12px;
 }
 
-img.button{
-    width: 12px;
-    height: 12px;
+div.price-and-qty{
+    display:flex;
+    align-items:center;
+    gap:8px;
 }
 
-div.buttondiv{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:8px;
-    align-items: center;
+#qty{
+    font-size: 12px;
+    width: 16px;
+    text-align: center;
+
 }
 
 .price{
     margin-right:8px ;
 }
-
 
 
 
