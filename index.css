@@ -11,6 +11,10 @@ body {
     background-color: white;
 }
 
+button {
+    all:unset;
+}
+
 div.appbar {
     display: flex;
     flex-direction: row;
@@ -20,6 +24,19 @@ div.appbar {
     color: white;
     font-size: 16px;
     font-weight: 500;
+}
+
+div.price-and-qty{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+#qty{
+    font-size: 12px;
+    width: 16px;
+    text-align: center;
+
 }
 
 div.hero img {
@@ -108,7 +125,9 @@ div.buttondiv{
     align-items: center;
 }
 
-
+.price{
+    margin-right:8px ;
+}
 
 
 
