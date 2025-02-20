@@ -110,7 +110,7 @@ div.price-and-qty{
     gap:8px;
 }
 
-#qty{
+.qty {
     font-size: 12px;
     width: 16px;
     text-align: center;
