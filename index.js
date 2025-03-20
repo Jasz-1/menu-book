@@ -44,12 +44,11 @@ const menus = [{
   }]
 }];
 
-const cart = [
-  [0, 0],
-  [0, 0],
-  [0, 0],
-  [0, 0]
-];
+const cart = [];
+
+for (let i = 0; i < menus.length; i++) {
+    cart.push([0,0]);
+}
 
 let menuArea = "";
 
