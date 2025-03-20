@@ -95,6 +95,8 @@ function addQty(menuIndex, priceIndex) {
 }
 
 function substractQty(menuIndex, priceIndex) {
-  cart[menuIndex][priceIndex] = cart[menuIndex][priceIndex] - 1;
-  document.getElementById("qty" + menuIndex + priceIndex).innerHTML = cart[menuIndex][priceIndex];
-}
+    if (cart[menuIndex][priceIndex]>0) {
+    cart[menuIndex][priceIndex] = cart[menuIndex][priceIndex] - 1;
+    document.getElementById("qty" + menuIndex + priceIndex).innerHTML = cart[menuIndex][priceIndex];
+  }}
+
