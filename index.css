@@ -41,6 +41,8 @@ button:active{
 }
 
 div.appbar {
+    position:sticky;
+    top:0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -143,7 +145,14 @@ div.price-and-qty{
     margin-right:8px ;
 }
 
-
+.appbar > button{
+    all:unset;
+    position:absolute;
+    right: 0;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
 
 @media (min-width: 600px) {
     div.menu-area{
