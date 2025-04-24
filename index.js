@@ -105,3 +105,4 @@ function substractQty(menuIndex, priceIndex) {
     document.getElementById("checkout").innerHTML ="Rp " + (totalPrice*1000).toLocaleString();
     document.getElementById("qty" + menuIndex + priceIndex).innerHTML = cart[menuIndex][priceIndex];
   }}
+

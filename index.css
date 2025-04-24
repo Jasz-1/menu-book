@@ -149,9 +149,10 @@ div.price-and-qty{
     all:unset;
     position:absolute;
     right: 0;
-    background-color: green;
-    color: white;
-    font-size: 20px;
+    padding: 0 16px;
+    background-color: #4caf50;
+    height:100%;
+    top:0;
 }
 
 @media (min-width: 600px) {
