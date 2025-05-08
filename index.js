@@ -115,11 +115,12 @@ function substractQty(menuIndex, priceIndex) {
 
 function checkout(){
     if(totalPrice>0) {
-    alert("Terimakasih atas pesanan anda: Rp " + (totalPrice*1000).toLocaleString());
-    reset()
+    ("Terimakasih atas pesanan anda: Rp " + (totalPrice*1000).toLocaleString());
+    window.location.href=`order-confirmation/index.html?total-price=${totalPrice}`;
+    reset();
     } 
     else{
-        alert("Pesan dulu minimal 1")
+        alert("Pesan dulu minimal 1");
     }
 }
 
