@@ -115,8 +115,10 @@ function substractQty(menuIndex, priceIndex) {
 
 function checkout(){
     if(totalPrice>0) {
-    ("Terimakasih atas pesanan anda: Rp " + (totalPrice*1000).toLocaleString());
-    window.location.href=`order-confirmation/index.html?total-price=${totalPrice}`;
+    let url = `order-confirmation/index.html?`;
+    url += `total-price=${totalPrice}`;
+    url += `&cart=${JSON.stringify(cart)}`;
+    window.location.href= url;
     reset();
     } 
     else{
