@@ -29,7 +29,7 @@ div.place-street {
 
 div.divider {
     font-size: 24px;
-    padding: 16px 0;
+    padding: 16px 16px;
 }
 
 div.table {
@@ -52,4 +52,39 @@ div.row {
     flex-direction: row;
     display: flex;
     justify-content: space-between;
+}
+
+div.guest{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+div.final-bill{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-left:20px ;
+}
+
+div.final-total{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 24px;
+}
+
+div.date-thanks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
 }
